@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Patrick+Hand&family=Zen+Loop&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Patrick+Hand&family=Quicksand:wght@300&family=Zen+Loop&display=swap');
+
+.banner{
+	background-image: url('https://firebasestorage.googleapis.com/v0/b/parqueadero-9c616.appspot.com/o/banner.jpg?alt=media&token=8cb422e5-8bd6-4925-a3fb-5e622768766e');
+	background-position: top center;
+	background-size: cover;
+	background-attachment: fixed;
+	border-style: double;
+	border-color: transparent;
+}
+
+.parqueadero{
+	width:96%;
+	height:80px;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	text-align: center;
+}
+
+.contenedor{
+	border-style: double;
+	width:40%;
+	height:400px;
+	margin-left: 50%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	/* background-color:#b8e5e5;
+	opacity: 0.6; */
+	border-radius: 10px;
+}
+
+h1{
+	font-family: 'Abril Fatface', cursive;	
+	font-size: 50px;
+}
+
+.bienvenido{
+	width:96%;
+	height:40;
+	margin-left: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+	background-color:#b8e5e5;
+	opacity: 0.6;
+	border-radius: 5px;
+}
+
+.entrada{
+	width:46%;
+	height:200px;
+	margin-left: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	float: left;
+	border-radius: 5opx;
+}
+
+.salida{
+	width:46%;
+	height:200px;
+	margin-left: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	float: left;
+	border-radius: 5px;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+
+.opciones{
+	width: 100%;
+	height: 50px;
+}
+
+.imagenes,.formulario{
+	height: 250px;
+}
+
+.txt-entrada,.txt-salida{
+	margin-left: 2%;
+	width: 48%;
+	height: 50px;
+	float: left;
+	background-color:#b8e5e5;
+	opacity: 0.6;
+	border-radius: 5px;
+	text-align: center;
+}
+
+p{
+	color: red;
+}
+
+.regresar,.registrar{
+	margin-left: 2%;
+	width: 48%;
+	height: 50px;
+	float: left;
+	border-radius: 5px;
+	text-align: center;
+}
+
+button{
+	width: 48%;
+	font-size: 20px;
+	font-family: 'Abril Fatface', cursive;	
+	margin-left: 2%;
+	border-radius: 5PX;
+	background-color:#0399fb ;
+}
+
+label,.dropdown {
+	font-size: 20px;
+	font-family: 'Abril Fatface', cursive;	
+	margin-left: 2%;
+}
+
+input{
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	width: 60%;	
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 5%;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
